@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void sendMessage(View view){
+    public void Exit(View view){
         finish();
         moveTaskToBack(true);
     }
