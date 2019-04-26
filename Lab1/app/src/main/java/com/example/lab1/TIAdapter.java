@@ -44,6 +44,7 @@ public class TIAdapter extends RecyclerView.Adapter<TIAdapter.ItemHolder> {
     public int getItemCount() {
         return itemNumber;
     }
+
     public class ItemHolder extends RecyclerView.ViewHolder {
         private final TextView textView;
         private final LinearLayout linearLayout;
